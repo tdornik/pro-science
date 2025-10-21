@@ -1,0 +1,27 @@
+name: pro-science
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - scikit-learn
+  - statsmodels
+  - cvxpy
+  - sympy
+  - numba
+  - yfinance
+  - pandas-datareader
+  - pytest
+  - black
+  - pip
+  - pip:
+      - linearmodels
+      - arch
+      - torch
+      - torchvision
