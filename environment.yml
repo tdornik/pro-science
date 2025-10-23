@@ -1,19 +1,31 @@
-name: base
+name: pro-science
 channels:
+  - conda-forge
   - defaults
 dependencies:
-  - python=3.13
-  - conda=25.9.1
+  - python=3.11
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - jupyterlab
+  - ipykernel
+  - scikit-learn
+  - statsmodels
+  - sympy
+  - numba
+  - cvxpy
+  - yfinance
+  - pandas-datareader
+  - pytest
+  - black
   - setuptools
-  - pip
   - wheel
-  - conda-anaconda-telemetry[version='>=0.3.0']
-  - conda-anaconda-tos[version='>=0.2.2']
-  - conda-content-trust
-  - conda-libmamba-solver
-  - menuinst
-  - python.app
-  - anaconda-anon-usage
-  - anaconda-auth
-  - mamba
-prefix: /Users/tdorn/miniconda3
+  - pip
+  - pip:
+      - linearmodels
+      - arch
+      - torch
+      - torchvision
+      - tensorflow-macos
+      - tensorflow-metal
